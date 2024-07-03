@@ -21,7 +21,7 @@ const LABEL_BELOW_CARD_STYLE = {
     whiteSpace: 'unset',
     fontSize: '10px',
     lineHeight: '12px',
-    letterSpacing: '0.02em',
+    letterSpacing: '0.02em', 
     textAlign: 'center',
     pointerEvents: 'none',
     pointer: 'default'
@@ -51,7 +51,7 @@ const CaseComponent = () => {
             action: {
               export: {
                 show: true,
-                format: ['image/png', 'application/pdf']
+                format: ['image/png', 'application/psd']
               }
             }
           },
